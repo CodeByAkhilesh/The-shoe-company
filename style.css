@@ -1,0 +1,22 @@
+*{
+    opacity: 1;
+}
+#shoe-main-img{
+    position: absolute;
+    height: 35vw;
+    right: 14%;
+    animation-name: animation;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animation {
+    to{
+        top: 15%;
+    }
+    from{
+        top: 19%;
+    }
+}

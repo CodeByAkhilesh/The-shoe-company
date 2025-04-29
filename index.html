@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- remix icon cdn -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>The Shoe Company</title>
+</head>
+<body  style="overflow-x: hidden;">
+    <main class="bg-black scroll-auto overflow-hidden">
+        <header>
+            <nav class="navbar flex justify-between px-15 fixed w-full z-20 bg-black/70 backdrop-blur-md">
+                <div class="logo">
+                    <img class="h-[100px]" src="./Assets/shoe-company-logo.webp" alt="Logo">
+                    <h2 class="text-white text-xs font-semibold -mt-6">The Shoe Company</h2>
+                </div>
+                <ul class="menu-item items-center hidden md:flex md:gap-15">
+                    <li><a class="text-white font-semibold" href="#home">Home</a></li>
+                    <li><a class="text-white font-semibold" href="#howItWork">How It Works?</a></li>
+                    <li><a class="text-white font-semibold" href="#about">About</a></li>
+                    <li><a class="text-white font-semibold" href="#testimonials">Testimonials</a></li>
+                    <li><a class="text-white font-semibold" href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="ham-menu flex items-center md:hidden">
+                <i class="ri-menu-fill text-white text-3xl "></i>
+                </div>
+            </nav>
+        </header>
+        <section class="h-screen w-full flex md:items-center justify-between md:pl-15 flex-col md:flex-row" id="home">
+            <div class="hadding-container text-white leading-10 text-4xl mt-30 ml-15 md:text-[8vw] font-bold md:leading-32 md:w-[60%]">
+                <h1>THE</h1>
+                <h1>SHOE</h1>
+                <h1>COMPANY</h1>
+            </div>
+            <img class="h-1/2 w-full object-cover object-center md:h-screen md:w-[40%]" src="./Assets/background-road-share.webp" alt="">
+            <img id="shoe-main-img" class="" src="./Assets/the-white-shoe-hero-image 1.webp" alt="">
+        </section>
+        <section class="page-2 h-screen w-full pt-4 relative max-w-[1440px]" id="howItWork">
+            <h2 class="section-2-hedding text-white text-center text-xl md:text-4xl font-bold">Have they finally made the <br> perfect workout shoe?</h2>
+            <img class="detail-shoe-img h-[230px] mt-44 ml-[23%] md:h-[30vw] md:mt-20 md:ml-[34%]" src="./Assets/how-it-works-image.webp" alt="">
+            <div class="detail-first w-[150px] top-[120px] left-[10vw] md:w-[200px] absolute md:top-[9vw] md:left-[20vw]">
+                <h3 class="text-white text-xl md:text-2xl font-bold">THE HEEL</h3>
+                <p class="text-white text-xs md:text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, id!</p>
+            </div>
+            <img class="arrow-img-1 h-24 top-[220px] rotate-45 object-center w-fit absolute left-[8vw] md:h-[150px]  md:top-[15vw] md:left-[23vw] md:rotate-0" src="./Assets/arrow-1 1.png" alt="">
+            <div class="detail-second w-[150px] top-[128px] right-[7vw] md:w-[200px] absolute md:top-[14vw] md:right-[20vw]">
+                <h3 class="text-white text-xl md:text-2xl font-bold">THE FRONT</h3>
+                <p class="text-white text-xs md:text-sm">The front is comfortable and adjusts well to the shape of your foot.</p>
+            </div>
+            <img class="arrow-img-2 h-24 top-[220px] right-[18vw] rotate-[145deg] md:h-[150px] object-center w-fit absolute md:top-[10vw] md:right-[30vw] md:rotate-0" src="./Assets/arrow-2 1.png" alt="">
+            <div class="detail-third w-[150px] left-[15vw] md:w-[200px] absolute md:top-[37vw] md:left-[30vw]">
+                <h3 class="text-white text-xl md:text-2xl font-bold">TRACTION</h3>
+                <p class="text-white text-xs md:text-sm">The shoe has good traction and doesn't slip easily.</p>
+            </div>
+            <img class="arrow-img-3 h-24 bottom-[30vw] md:h-[150px] object-center w-fit absolute md:top-[34vw] left-[40vw]" src="./Assets/arrow-3 1.png" alt="">
+        </section>
+        <section class="about h-fit w-full border-t-2 border-t-[#D9D9D980] lg:w-full lg:border-none lg:h-screen" id="about">
+            <h2 class="about-heading text-white text-3xl font-bold text-center mt-5 lg:hidden ">About Us!</h2>
+            <div class="about-container lg:flex lg:h-full lg:pr-[10vw]">
+                <div class="img bg-[url(/Assets/background1.webp)] bg-cover bg-center h-80 mt-10 flex justify-center lg:w-1/2 lg:h-[450px] lg:bg-cover lg:bg-center">
+                    <img class="about-png h-96 lg:h-[550px]" src="./Assets/about-shoe-company.webp" alt="">
+                </div>
+                <div class="pera py-20 px-10 lg:w-1/2">
+                    <h2 class="text-white text-3xl font-bold text-left mt-5 hidden lg:block ">About Us!</h2>
+                    <p class="text-white text-justify font-semibold text-xl mt-10 lg:text-sm lg:mt-6">For each one of those shoe sweethearts out there, THE SHOE COMPANY offer the one-stop goal to pick the correct match of footwear.</p>
+                    <p class="text-white text-justify font-semibold text-xl hidden lg:block mt-10 lg:text-sm lg:mt-6">Gone are the days when you needed to go from store to store to locate the correct style and size for yourself.</p>
+                    <p class="text-white text-justify font-semibold text-xl mt-10 lg:text-sm lg:mt-6">At THE SHOE COMPANY, you can locate a vast accumulation of dashing footwear in all sizes and styles, all inside a couple of snaps.</p>
+                    <p class="text-white text-justify font-semibold text-xl mt-10 hidden lg:block lg:text-sm lg:mt-6">Simple right? Not just we are here to spare your time, we are putting forth you the most dazzling footwear alternatives from all the first-rate brands like DAVINCHI, PRINCESS, and SIGNATURE. 
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section class="h-fit w-full lg:h-screen" id="testimonials">
+            <div class="testimonials-container h-full w-full pb-10 bg-[url(/Assets/background2.webp)] bg-cover bg-center lg:flex lg:flex-col lg:items-center lg:justify-center">
+                <div class="testimonials-main-heading h-fit w-full lg:w-[700px]">
+                    <h2 class="text-white text-3xl font-bold text-center mt-10 lg:text-5xl">What People are saying about THE SHOE COMPANY ?</h2>
+                </div>
+                <div class="profiles lg:flex lg:mt-32 lg:gap-10 lg:justify-around">
+            <div class="profile flex flex-col items-center mt-10 px-10 lg:w-[380px] lg:h-[400px]">
+                <img class="h-[200px] w-[200px]" src="./Assets/Mask group.webp" alt="">
+                <p class="text-white text-2xl text-center lg:text-xl">“Looking for shoes that are built just for you? THE SHOE COMPANY is the way to go. Love the design and build quality.”
+                </p>
+            </div>
+            <div class="profile-2 flex flex-col items-center mt-10 px-10 lg:w-[380px] lg:h-[400px]">
+                <img class="h-[200px] w-[200px]" src="./Assets/Group 4.webp" alt="">
+                <p class="text-white text-2xl text-center lg:text-xl">“I love the shoes, the quality, and everything. They are worth the investment!”
+                </p>
+            </div>
+            <div class="profile-3 flex flex-col items-center mt-10 px-10 lg:w-[380px] lg:h-[400px]">
+                <img class="h-[200px] w-[200px]" src="./Assets/Group 5.webp" alt="">
+                <p class="text-white text-2xl text-center lg:text-xl">“They make the best and forever lasting shoes. Superb fit and comfort is literally the next level. Much recommended!”
+                </p>
+            </div>
+        </div>
+        </div>
+        </section>
+        <section class="lg:flex justify-between lg:pt-15 lg:px-30" id="contact">
+            <div class=" px-18 py-14 lg:w-[40%] lg:flex lg:flex-col lg:justify-center">
+                    <h2 class="text-white text-left text-4xl font-bold">Contact Us</h2>
+                    <div class="address text-white text-xl mt-10">
+                        <h1>THE SHOE COMPANY,</h1>
+                        <h1>Dallas, Texas, USA</h1> 
+                        <h1>+1 5590 1120 9910</h1>
+                    </div>
+                    <div class="social-media flex gap-5 mt-10">
+                        <a href="#"><img class="h-10 w-10" src="./Assets/twitch.webp" alt=""></a>
+                        <a href="#"><img class="h108 w-10" src="./Assets/vector1.webp" alt=""></a>
+                        <a href="#"><img class="h-10 w-10" src="./Assets/Vector2.webp" alt=""></a>
+                    </div>
+            </div>
+            <div class="map h-[550px] lg:w-[50%]">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429184.5589704061!2d-97.06175145186624!3d32.81864926469465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2sin!4v1740580947588!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <footer class="h-[100px] w-full flex items-center justify-center gap-5">
+            <div class="footer-logo">
+                <img class="h-[60px]" src="./Assets/shoe-company-logo.webp" alt="Logo">
+                <h2 class="text-white text-[7px] font-semibold -mt-4">The Shoe Company</h2>
+            </div>
+            <p class="text-white text-base">Made With 💖 By Akhilesh Yadav</p>
+        </footer>
+
+        <!-- gsap cdn  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- gsap scroll-trigger cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- main js  -->
+         <script src="./script.js"></script>
+    </main>
+</body>
+</html>
